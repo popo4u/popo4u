@@ -1,0 +1,49 @@
+name: Update profile image
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - github-profile-preview.html
+      - scripts/capture-profile-preview.mjs
+      - .github/workflows/update-profile-image.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile-image:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install Chrome
+        id: setup-chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Capture profile image
+        env:
+          CHROME_BIN: ${{ steps.setup-chrome.outputs.chrome-path }}
+        run: node scripts/capture-profile-preview.mjs
+
+      - name: Commit updated image
+        run: |
+          if git diff --quiet -- assets/profile-fullpage.png assets/profile-fullpage.svg; then
+            echo "Profile image is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-fullpage.png assets/profile-fullpage.svg
+          git commit -m "Update profile image"
+          git push

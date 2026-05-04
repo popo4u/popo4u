@@ -1,0 +1,96 @@
+<svg width="1120" height="520" viewBox="0 0 1120 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">One / popo4u GitHub profile console</title>
+  <desc id="desc">AI-driven full-stack engineer building security products, automation workflows, and small systems.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#45c9f5" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow-green" cx="82%" cy="8%" r="42%" fx="82%" fy="8%">
+      <stop offset="0%" stop-color="#39d98a" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#39d98a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-cyan" cx="12%" cy="20%" r="44%" fx="12%" fy="20%">
+      <stop offset="0%" stop-color="#45c9f5" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#45c9f5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-8%" y="-12%" width="116%" height="124%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .text { fill: #dbe4ef; }
+      .muted { fill: #8998aa; }
+      .faint { fill: #5d6b7d; }
+      .green { fill: #39d98a; }
+      .cyan { fill: #45c9f5; }
+      .amber { fill: #efbc62; }
+    </style>
+  </defs>
+
+  <rect width="1120" height="520" rx="0" fill="#07090d"/>
+  <rect width="1120" height="520" fill="url(#grid)"/>
+  <rect width="1120" height="520" fill="url(#glow-green)"/>
+  <rect width="1120" height="520" fill="url(#glow-cyan)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="32" y="34" width="1056" height="452" rx="8" fill="#0d131a" fill-opacity="0.96" stroke="#243242"/>
+    <rect x="32" y="34" width="1056" height="46" rx="8" fill="#0a1017"/>
+    <path d="M32 72 H1088" stroke="#243242"/>
+    <circle cx="56" cy="57" r="6" fill="#ff6b6b"/>
+    <circle cx="76" cy="57" r="6" fill="#efbc62"/>
+    <circle cx="96" cy="57" r="6" fill="#39d98a"/>
+    <text x="560" y="62" text-anchor="middle" class="mono muted" font-size="13">github.com/popo4u/README.md</text>
+    <text x="1036" y="62" text-anchor="end" class="mono green" font-size="13">ONLINE</text>
+
+    <text x="74" y="133" class="mono green" font-size="15">$ whoami</text>
+    <text x="74" y="194" class="mono text" font-size="62" font-weight="700">One / popo4u</text>
+    <rect x="520" y="146" width="28" height="56" fill="#39d98a"/>
+    <text x="74" y="242" class="sans muted" font-size="20">AI-driven full-stack engineer building security products, automation workflows, and small systems.</text>
+
+    <g class="mono" font-size="13">
+      <rect x="74" y="274" width="88" height="30" rx="15" fill="#101821" stroke="#39d98a" stroke-opacity="0.65"/>
+      <text x="118" y="294" text-anchor="middle" class="green">ai-driven</text>
+      <rect x="172" y="274" width="86" height="30" rx="15" fill="#101821" stroke="#243242"/>
+      <text x="215" y="294" text-anchor="middle" class="muted">full-stack</text>
+      <rect x="268" y="274" width="142" height="30" rx="15" fill="#101821" stroke="#243242"/>
+      <text x="339" y="294" text-anchor="middle" class="muted">security products</text>
+      <rect x="420" y="274" width="104" height="30" rx="15" fill="#101821" stroke="#243242"/>
+      <text x="472" y="294" text-anchor="middle" class="muted">automation</text>
+    </g>
+
+    <g class="mono" font-size="14">
+      <rect x="74" y="331" width="72" height="34" rx="6" fill="#101821" stroke="#243242"/>
+      <text x="110" y="353" text-anchor="middle" class="text">GitHub</text>
+      <rect x="156" y="331" width="82" height="34" rx="6" fill="#101821" stroke="#243242"/>
+      <text x="197" y="353" text-anchor="middle" class="text">Projects</text>
+      <rect x="248" y="331" width="58" height="34" rx="6" fill="#101821" stroke="#243242"/>
+      <text x="277" y="353" text-anchor="middle" class="text">Page</text>
+      <rect x="316" y="331" width="74" height="34" rx="6" fill="#101821" stroke="#243242"/>
+      <text x="353" y="353" text-anchor="middle" class="text">Resume</text>
+      <rect x="400" y="331" width="42" height="34" rx="6" fill="#101821" stroke="#243242"/>
+      <text x="421" y="353" text-anchor="middle" class="text">X</text>
+    </g>
+
+    <rect x="660" y="112" width="374" height="276" rx="8" fill="#101821" stroke="#243242"/>
+    <circle cx="704" cy="156" r="27" fill="#111821" stroke="#243242"/>
+    <text x="704" y="166" text-anchor="middle" class="mono green" font-size="24" font-weight="700">O</text>
+    <text x="748" y="150" class="mono text" font-size="17" font-weight="700">One</text>
+    <text x="748" y="174" class="sans muted" font-size="14">Chaitin - HangZhou</text>
+    <path d="M684 202 H1012" stroke="#192432"/>
+
+    <text x="684" y="235" class="mono green" font-size="15">~/profile</text>
+    <text x="684" y="263" class="mono muted" font-size="15">|- handle     </text>
+    <text x="806" y="263" class="mono text" font-size="15" font-weight="700">popo4u</text>
+    <text x="684" y="291" class="mono muted" font-size="15">|- focus      </text>
+    <text x="806" y="291" class="mono text" font-size="15" font-weight="700">ai-driven full-stack engineering</text>
+    <text x="684" y="319" class="mono muted" font-size="15">|- currently  building security products</text>
+    <text x="684" y="347" class="mono muted" font-size="15">|- languages  C, Go, Lua, Rust, Python, TypeScript</text>
+    <text x="684" y="375" class="mono muted" font-size="15">`- status     </text>
+    <text x="806" y="375" class="mono cyan" font-size="15">online</text>
+    <text x="860" y="375" class="mono muted" font-size="15">, embracing the AI shift</text>
+
+    <text x="74" y="438" class="mono faint" font-size="14">$ uptime: building since 2015</text>
+    <text x="560" y="438" text-anchor="middle" class="mono green" font-size="14">0. Problems are inevitable  1. Problems are soluble</text>
+  </g>
+</svg>
