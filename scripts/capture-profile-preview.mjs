@@ -172,5 +172,16 @@ try {
   console.log(`Dimensions ${width}x${height}`);
 } finally {
   proc.kill();
-  await rm(userDataDir, { recursive: true, force: true });
+  await new Promise((resolveExit) => {
+    proc.once("exit", resolveExit);
+    setTimeout(resolveExit, 2000);
+  });
+  await rm(userDataDir, {
+    recursive: true,
+    force: true,
+    maxRetries: 3,
+    retryDelay: 250,
+  }).catch((error) => {
+    console.warn(`Could not remove temporary Chrome profile: ${error.message}`);
+  });
 }
